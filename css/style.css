@@ -1,5 +1,6 @@
-.m {
-  width: 100px;
-  height: 100px;
-  background: red;
+@font-face {
+  font-family: "Back to Black";
+  src: url("../fonts/Back to Black Demo.ttf");
 }
+
+/*# sourceMappingURL=style.css.map */
