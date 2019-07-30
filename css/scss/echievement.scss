@@ -1,0 +1,25 @@
+.echievement {
+  margin-top: 80px;
+  background: url("../img/bg/bg.echivement.png");
+}
+
+.echievement-wrapper {
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.echivement-number {
+  @include vidaloka(#fff, 60px, 400);
+  line-height: 27px;
+}
+
+.echivement-text {
+  @include vidaloka(#ffeb3b, 20px, 400);
+  line-height: 1px;
+  letter-spacing: 1.5px;
+}

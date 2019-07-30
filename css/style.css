@@ -7,11 +7,6 @@
   padding: 0;
 }
 
-.dropdown-menu {
-  background-color: none !important;
-  border: none;
-}
-
 .header-wrapper {
   background: url("../img/bg/bg.header.png");
   background-size: contain;
@@ -29,7 +24,8 @@
   align-items: center;
   height: 130px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  padding-top: 40px;
+  padding-top: 30px;
+  margin-bottom: 60px;
 }
 
 .header-logo {
@@ -94,6 +90,94 @@
   font-family: "Back to Black";
   margin-top: -80px;
   padding-bottom: 63px;
+}
+
+.about {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.about-title {
+  color: #333;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.about-title span {
+  color: #ffeb3b;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  text-decoration: underline;
+}
+
+.about-description {
+  position: relative;
+  margin-top: 50px;
+}
+
+.about-description__text {
+  margin-left: 60px;
+}
+.about-description__text::before {
+  content: "";
+  width: 1px;
+  height: 86px;
+  background-color: #f1f1f1;
+  position: absolute;
+  left: 86px;
+}
+
+.description-text__title {
+  color: #313131;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  letter-spacing: 0.6px;
+  margin-bottom: 20px;
+}
+
+.description-text__words {
+  color: #464646;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.52px;
+}
+
+.echievement {
+  margin-top: 80px;
+  background: url("../img/bg/bg.echivement.png");
+}
+
+.echievement-wrapper {
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.echivement-number {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 27px;
+}
+
+.echivement-text {
+  color: #ffeb3b;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 1px;
+  letter-spacing: 1.5px;
 }
 
 /*# sourceMappingURL=style.css.map */
