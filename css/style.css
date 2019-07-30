@@ -28,6 +28,8 @@
   justify-content: space-between;
   align-items: center;
   height: 130px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 40px;
 }
 
 .header-logo {
@@ -69,6 +71,10 @@
 .nav-item:last-child {
   margin-left: 80px;
   margin-right: 0;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid yellow;
 }
 
 .header-text {
