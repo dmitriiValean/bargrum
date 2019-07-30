@@ -6,3 +6,29 @@
     font-family: "Back to Black";
     src: url("../fonts/Back to Black Demo.ttf");
 }
+@mixin vidaloka ($color, $fontSize, $fontWeight) {
+  color: $color;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-family: 'Vidaloka', serif;
+}
+@mixin Back_to_Black ($color, $fontSize, $fontWeight) {
+  color: $color;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-family: 'Back to Black';
+}
+@mixin Open_Sans ($color, $fontSize, $fontWeight) {
+  color: $color;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-family: 'Open Sans', sans-serif;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.dropdown-menu {
+  background-color: none !important;
+  border: none;
+}

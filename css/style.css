@@ -2,5 +2,92 @@
   font-family: "Back to Black";
   src: url("../fonts/Back to Black Demo.ttf");
 }
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu {
+  background-color: none !important;
+  border: none;
+}
+
+.header-wrapper {
+  background: url("../img/bg/bg.header.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.header-wrapper .header-wrapper__shadow {
+  background: url("../img/bg/bg.shadow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+.header-logo .header-logo__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bagrum-logo {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Back to Black";
+  line-height: 31px;
+}
+
+.template {
+  color: #e5432b;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  text-align: right;
+  margin-top: -7px;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+.nav-item:last-child {
+  margin-left: 80px;
+  margin-right: 0;
+}
+
+.header-text {
+  text-align: center;
+}
+.header-text .weAre {
+  color: #fff;
+  font-size: 110px;
+  font-weight: 400;
+  font-family: "Back to Black";
+  margin-top: 50px;
+}
+.header-text .creative {
+  color: #fff;
+  font-size: 270px;
+  font-weight: 400;
+  font-family: "Back to Black";
+  margin-top: -80px;
+  padding-bottom: 63px;
+}
 
 /*# sourceMappingURL=style.css.map */
