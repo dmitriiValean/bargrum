@@ -474,4 +474,66 @@
   color: #0e0a94;
 }
 
+.clients {
+  background: url("../img/bg/bg.clients.png");
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.team {
+  margin-bottom: 60px;
+}
+
+.team-title {
+  color: #333;
+  font-size: 51px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+
+.team-text {
+  color: #969595;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.card-social,
+.card-social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-social::after {
+  content: "";
+  width: 311px;
+  height: 1px;
+  background-color: #f1f1f1;
+  position: absolute;
+  bottom: 90px;
+}
+
+a {
+  width: 44px;
+  height: 44px;
+  margin: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 50%;
+}
+a :hover {
+  background-color: yellow;
+}
+a .fab {
+  font-size: 20px;
+  color: #dadada;
+}
+
 /*# sourceMappingURL=style.css.map */
