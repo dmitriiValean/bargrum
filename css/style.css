@@ -150,6 +150,7 @@
 
 .echievement {
   margin-top: 80px;
+  margin-bottom: 60px;
   background: url("../img/bg/bg.echivement.png");
 }
 
@@ -178,6 +179,181 @@
   font-family: "Vidaloka", serif;
   line-height: 1px;
   letter-spacing: 1.5px;
+}
+
+#al-c {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  margin: auto;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.effects {
+  list-style: none;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+
+.effects li {
+  position: relative;
+  display: inline-block;
+  background-color: #fff;
+  font: normal 14px sans-serif;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 350px) {
+  .effects li {
+    font-size: 10px;
+  }
+}
+.effects li img {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.effects li > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.effects li:hover > div {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.effects li > div {
+  opacity: 0;
+  background-color: rgba(251, 221, 47, 0.85);
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  transform: translate(0px, -35px) rotate(0deg);
+}
+
+.effects li:hover div {
+  opacity: 1;
+  transform: translate(0px, 0px) rotate(0deg);
+}
+
+.project-hover__title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 96px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.project-hover__text {
+  color: #434242;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+  text-align: center;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.project-hover__link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  text-align: center;
+  letter-spacing: 1.2px;
+  padding-left: 20px;
+  width: 175px;
+  height: 45px;
+  border-radius: 0;
+  border: 2px solid #000;
+}
+.project-hover__link a {
+  color: #000;
+  text-decoration: none;
+}
+
+.portfolio {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.portfolio-title__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.title-text__head {
+  color: #333;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 60px;
+  margin-bottom: 35px;
+}
+
+.title-text__body {
+  color: #969595;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+  text-align: center;
+}
+
+.portfolio-title__tab {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn-outline-warning {
+  color: #181a1f;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  width: 200px;
+  border-radius: 0;
+  border: 2px solid #ffda00;
+}
+
+.portfolio-project {
+  margin-top: 70px;
+  position: relative;
+}
+
+.portfolio-project__1 {
+  position: absolute;
+  margin-top: 70px;
+}
+
+.portfolio-project__2, .portfolio-project__3 {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
