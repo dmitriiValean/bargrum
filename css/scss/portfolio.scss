@@ -36,14 +36,23 @@
   border-radius: 0;
   border: 2px solid #ffda00;
 }
-.portfolio-project {
+.portofolio-project {
   margin-top: 70px;
   position: relative;
+  height: 800px;
+  margin-bottom: 60px;
 }
 .portfolio-project__1 {
   position: absolute;
-  margin-top: 70px;
 }
-.portfolio-project__2, .portfolio-project__3 {
+.portfolio-project__2 {
   display: flex;
+  position: absolute;
+  right: 0;
+}
+.portfolio-project__3 {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
 }

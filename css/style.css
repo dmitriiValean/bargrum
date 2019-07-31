@@ -229,6 +229,10 @@
   margin-right: auto;
 }
 
+.effects_1 li img {
+  height: 800px;
+}
+
 .effects li > div {
   width: 100%;
   height: 100%;
@@ -295,6 +299,14 @@
   text-decoration: none;
 }
 
+.portfolio-project__3, .portfolio-project__2 {
+  width: 75%;
+}
+
+.portfolio-project__1 {
+  width: 25%;
+}
+
 .portfolio {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -342,18 +354,124 @@
   border: 2px solid #ffda00;
 }
 
-.portfolio-project {
+.portofolio-project {
   margin-top: 70px;
   position: relative;
+  height: 800px;
+  margin-bottom: 60px;
 }
 
 .portfolio-project__1 {
   position: absolute;
-  margin-top: 70px;
 }
 
-.portfolio-project__2, .portfolio-project__3 {
+.portfolio-project__2 {
   display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.portfolio-project__3 {
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+}
+
+.services {
+  margin-top: 65px;
+  margin-bottom: 80px;
+}
+
+.services-title__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.services-container {
+  flex-wrap: nowrap;
+  margin: 0 30px 30px;
+}
+.services-container #size {
+  width: 330px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-menu_1 {
+  background-color: #ff5252;
+}
+
+.services-menu_2 {
+  background-color: #4caf50;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.services-menu_3 {
+  background-color: #673ab7;
+}
+
+.services-container__2 {
+  flex-wrap: nowrap;
+  margin: 0 30px 30px;
+}
+.services-container__2 #size {
+  width: 330px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-menu_4 {
+  background-color: #2196f3;
+}
+
+.services-menu_5 {
+  background-color: #ffeb3b;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.services-menu_6 {
+  background-color: #00bcd4;
+}
+
+.services-item__title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  letter-spacing: 0.8px;
+  margin-bottom: 25px;
+}
+
+.services-item__text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.52px;
+  margin-bottom: 35px;
+}
+
+.services-item_link {
+  color: #ffeb3b;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+}
+.services-item_link:hover {
+  color: #0e0a94;
 }
 
 /*# sourceMappingURL=style.css.map */
