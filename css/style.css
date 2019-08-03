@@ -266,7 +266,6 @@
   font-family: "Vidaloka", serif;
   line-height: 96px;
   text-align: left;
-  padding-left: 20px;
 }
 
 .project-hover__text {
@@ -277,7 +276,6 @@
   line-height: 26px;
   letter-spacing: 0.64px;
   text-align: center;
-  padding-left: 20px;
   margin-bottom: 40px;
 }
 
@@ -288,7 +286,6 @@
   font-family: "Vidaloka", serif;
   text-align: center;
   letter-spacing: 1.2px;
-  padding-left: 20px;
   width: 175px;
   height: 45px;
   border-radius: 0;
@@ -479,11 +476,17 @@
   height: 400px;
   display: flex;
   align-items: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+.slider-wrapper {
+  margin-top: 70px;
 }
 
 .team {
   margin-bottom: 60px;
+  margin-top: 80px;
 }
 .team a {
   width: 44px;
@@ -537,7 +540,7 @@
 }
 
 .contacts {
-  background: url("../img/bg/bg.clients.png");
+  background: url("../img/bg/bg.contacts.png");
   padding-bottom: 100px;
   padding-top: 100px;
   display: flex;
@@ -570,6 +573,45 @@
   height: 50px;
   background-color: #ffeb3b;
   border-radius: 0;
+}
+
+.footer {
+  background: url("../img/bg/bg.clients.png");
+  padding-top: 70px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Vidaloka", serif;
+  line-height: 33px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.footer-text span a {
+  color: #ffeb3b;
+}
+
+.footer-card__social {
+  display: flex;
+  justify-content: center;
+}
+.footer-card__social :nth-child(2) {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer-social__link {
+  color: #f9f9f9;
+  font-size: 26px;
+}
+.footer-social__link :hover {
+  color: #ffeb3b;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+.footer {
+  background: url("../img/bg/bg.clients.png");
+  padding-top: 70px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  @include vidaloka(#fff, 14px, 400);
+  line-height: 33px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+  span a {
+    color: #ffeb3b;
+  }
+}
+
+.footer-card__social {
+  display: flex;
+  justify-content: center;
+
+  :nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.footer-social__link {
+  color: #f9f9f9;
+  font-size: 26px;
+
+  :hover {
+    color: #ffeb3b;
+  }
+}

@@ -7,9 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Vidaloka&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="js/slick.css">
+  <link rel="stylesheet" href="js/slick-theme.css">
+  <script src="https://kit.fontawesome.com/647b661125.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Bargrum</title>
-  <script src="https://kit.fontawesome.com/647b661125.js"></script>
+
 </head>
 
 <body>
@@ -18,7 +21,7 @@
       <div class="header-wrapper__shadow">
         <div class="container">
           <div class="header-container">
-            <div class="row d-flex">
+            <div class="row">
               <div class="header-logo">
                 <img src="img/icons/header-logo.png" alt="Logo">
                 <div class="header-logo__wrapper">
@@ -396,11 +399,31 @@
             <div class="title-text__body text-white text-left">Congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</div>
           </div>
         </div>
+        <div class="row">
         <div class="col-12">
-          <div class="clients-slider">
-
-          </div>
-        </div>
+          <div class="slider-wrapper">
+            <div class="multimple-items slider">
+              <div>
+                <img src="img/icons/simple_star.png">
+              </div>
+              <div>
+                <img src="img/icons/the_lab.png">
+              </div>
+              <div>
+                <img src="img/icons/eshle.png">
+              </div>
+              <div>
+                <img src="img/icons/timber.png">
+              </div>
+              <!-- <div>
+                <img src="img/icons/the_lab.png">
+              </div>
+              <div>
+                <img src="img/icons/eshle.png">
+              </div> -->
+            </div>
+      </div>
+      </div>
       </div>
     </section>
     <section class="team">
@@ -481,11 +504,63 @@
         </div>
       </div>
     </section>
-
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+        <div class="header-logo justify-content-center col-12">
+          <img src="img/icons/header-logo.png" alt="Logo">
+          <div class="header-logo__wrapper">
+            <span class="bagrum-logo">Bagdum</span>
+            <span class="template">Template</span>
+          </div>
+    </div>
+    <div class="col-12">
+      <div class="footer-text text-center">
+         © 2017 - <span class="footer-text__expert"><a href="#">ThemeXpert</a></span> All Right Reserved
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="footer-card__social">
+        <a href="#" class="footer-social__link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="footer-social__link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="footer-social__link"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
+
+  <script src="js/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.multimple-items').slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        arrows: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+            }
+          }
+        ]
+      });
+    });
+  </script>
 </body>
 
 </html>
