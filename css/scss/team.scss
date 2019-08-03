@@ -1,5 +1,23 @@
 .team {
   margin-bottom: 60px;
+
+  a {
+    width: 44px;
+    height: 44px;
+    margin: 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+
+    :hover {
+      background-color: yellow;
+      text-decoration: none;
+    }
+
+    .fab {
+      font-size: 20px;
+      color: #dadada;
+    }
+  }
 }
 
 .team-title {
@@ -29,21 +47,4 @@
   background-color: #f1f1f1;
   position: absolute;
   bottom: 90px;
-}
-
-a {
-  width: 44px;
-  height: 44px;
-  margin: 10px;
-  border: 1px solid #f1f1f1;
-  border-radius: 50%;
-
-  :hover {
-    background-color: yellow;
-  }
-
-  .fab {
-    font-size: 20px;
-    color: #dadada;
-  }
 }

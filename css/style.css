@@ -485,6 +485,21 @@
 .team {
   margin-bottom: 60px;
 }
+.team a {
+  width: 44px;
+  height: 44px;
+  margin: 10px;
+  border: 1px solid #f1f1f1;
+  border-radius: 50%;
+}
+.team a :hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+.team a .fab {
+  font-size: 20px;
+  color: #dadada;
+}
 
 .team-title {
   color: #333;
@@ -521,19 +536,40 @@
   bottom: 90px;
 }
 
-a {
-  width: 44px;
-  height: 44px;
-  margin: 10px;
-  border: 1px solid #f1f1f1;
-  border-radius: 50%;
+.contacts {
+  background: url("../img/bg/bg.clients.png");
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-a :hover {
-  background-color: yellow;
+
+.form-inline {
+  justify-content: center;
+  margin-top: 60px;
 }
-a .fab {
-  font-size: 20px;
-  color: #dadada;
+
+.contacts-form {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  width: 460px;
+  height: 50px;
+  opacity: 0.2;
+}
+
+.contacts-btn {
+  color: #000;
+  font-size: 14px;
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 20px;
+  width: 139px;
+  height: 50px;
+  background-color: #ffeb3b;
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
