@@ -8,13 +8,8 @@
 }
 
 .header-wrapper {
-  background: url("../img/bg/bg.header.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.header-wrapper .header-wrapper__shadow {
-  background: url("../img/bg/bg.shadow.png");
-  background-size: contain;
+  background: url("../img/bg/bg.v2.png");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -22,10 +17,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 130px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   padding-top: 30px;
-  margin-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .header-logo {
@@ -83,6 +77,12 @@
   font-family: "Back to Black";
   margin-top: 50px;
 }
+@media (max-width: 768px) {
+  .header-text .weAre {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+}
 .header-text .creative {
   color: #fff;
   font-size: 270px;
@@ -90,6 +90,11 @@
   font-family: "Back to Black";
   margin-top: -80px;
   padding-bottom: 63px;
+}
+@media (max-width: 768px) {
+  .header-text .creative {
+    font-size: 190px;
+  }
 }
 
 .about {
@@ -163,6 +168,12 @@
   align-items: center;
   margin-top: 70px;
   margin-bottom: 70px;
+}
+@media (max-width: 768px) {
+  .echievement-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 
 .echivement-number {
@@ -320,7 +331,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 65px;
+  margin-bottom: 35px;
 }
 
 .title-text__head {
@@ -355,6 +366,7 @@
   width: 200px;
   border-radius: 0;
   border: 2px solid #ffda00;
+  margin-bottom: 10px;
 }
 
 .portofolio-project {
@@ -526,7 +538,7 @@
   font-size: 51px;
   font-weight: 400;
   font-family: "Vidaloka", serif;
-  line-height: 20px;
+  line-height: 60px;
   margin-bottom: 50px;
 }
 

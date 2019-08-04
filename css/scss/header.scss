@@ -1,23 +1,15 @@
 .header-wrapper {
-  background: url("../img/bg/bg.header.png");
-  background-size: contain;
+  background: url("../img/bg/bg.v2.png");
+  background-size: cover;
   background-repeat: no-repeat;
-
-  .header-wrapper__shadow {
-    background: url("../img/bg/bg.shadow.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
-
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 130px;
   border-bottom: 1px solid rgb(255, 255, 255, 0.3);
   padding-top: 30px;
-  margin-bottom: 60px;
+  padding-bottom: 20px;
 
 }
 
@@ -65,11 +57,20 @@
   .weAre {
     @include Back_to_Black (#fff, 110px, 400);
     margin-top: 50px;
+
+    @media (max-width: 768px) {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
   }
 
   .creative {
     @include Back_to_Black (#fff, 270px, 400);
     margin-top: -80px;
     padding-bottom: 63px;
+
+    @media (max-width: 768px) {
+      font-size: 190px;
+    }
   }
 }
