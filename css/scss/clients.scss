@@ -1,6 +1,5 @@
 .clients {
   background: url('../img/bg/bg.clients.png');
-  height: 400px;
   display: flex;
   align-items: center;
   padding-bottom: 80px;
@@ -8,4 +7,9 @@
 }
 .slider-wrapper {
   margin-top: 70px;
+}
+@media (max-width: 768px) {
+  .slider {
+
+  }
 }

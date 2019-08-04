@@ -41,6 +41,11 @@
   position: relative;
   height: 800px;
   margin-bottom: 60px;
+
+  @media (min-width: 1600px) {
+    width: 1600px;
+    margin: auto;
+  }
 }
 .portfolio-project__1 {
   position: absolute;
