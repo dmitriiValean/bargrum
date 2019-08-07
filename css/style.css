@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .header-wrapper {
   background: url("../img/bg/bg.v2.png");
   background-size: cover;
@@ -62,8 +66,16 @@
   margin-left: 80px;
   margin-right: 0;
 }
+@media (max-width: 990px) {
+  .nav-item {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+}
 
 .nav-link:hover {
+  height: 200%;
   border-bottom: 1px solid yellow;
 }
 
@@ -91,12 +103,17 @@
   margin-top: -80px;
   padding-bottom: 63px;
 }
-@media (max-width: 768px) {
+@media (max-width: 940px) {
   .header-text .creative {
     font-size: 190px;
   }
 }
 
+@media (max-width: 650px) {
+  .header-text .creative {
+    font-size: 120px;
+  }
+}
 .about {
   margin-top: 60px;
   margin-bottom: 80px;
@@ -192,6 +209,11 @@
   line-height: 1px;
   letter-spacing: 1.5px;
 }
+@media (max-width: 1200px) {
+  .echivement-text {
+    white-space: pre-line;
+  }
+}
 
 #al-c {
   width: 100%;
@@ -282,7 +304,12 @@
   font-weight: 400;
   font-family: "Vidaloka", serif;
   line-height: 96px;
-  text-align: left;
+}
+@media (max-width: 1120px) {
+  .project-hover__title {
+    line-height: 1;
+    text-align: center;
+  }
 }
 
 .project-hover__text {
@@ -525,8 +552,11 @@
   border-radius: 50%;
 }
 .team a :hover {
+  width: 44px;
+  height: 44px;
   background-color: yellow;
-  text-decoration: none;
+  border-radius: 50%;
+  line-height: 44px;
 }
 .team a .fab {
   font-size: 20px;
@@ -602,6 +632,11 @@
   height: 50px;
   background-color: #ffeb3b;
   border-radius: 0;
+}
+@media (max-width: 768px) {
+  .contacts-btn {
+    margin-top: 20px;
+  }
 }
 
 .footer {

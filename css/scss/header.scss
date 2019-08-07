@@ -3,6 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -10,7 +11,6 @@
   border-bottom: 1px solid rgb(255, 255, 255, 0.3);
   padding-top: 30px;
   padding-bottom: 20px;
-
 }
 
 .header-logo {
@@ -45,10 +45,17 @@
     margin-left: 80px;
     margin-right: 0;
   }
-}
-.nav-link:hover {
-  border-bottom: 1px solid yellow;
 
+  @media (max-width: 990px) {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+}
+
+.nav-link:hover {
+  height: 200%;
+  border-bottom: 1px solid yellow;
 }
 
 .header-text {
@@ -57,20 +64,25 @@
   .weAre {
     @include Back_to_Black (#fff, 110px, 400);
     margin-top: 50px;
-
     @media (max-width: 768px) {
       font-size: 50px;
       margin-bottom: 30px;
     }
   }
 
-  .creative {
-    @include Back_to_Black (#fff, 270px, 400);
-    margin-top: -80px;
-    padding-bottom: 63px;
 
-    @media (max-width: 768px) {
-      font-size: 190px;
-    }
+.creative {
+  @include Back_to_Black (#fff, 270px, 400);
+  margin-top: -80px;
+  padding-bottom: 63px;
+
+    @media(max-width: 940px) {
+    font-size: 190px;
+  }
+}
+}
+@media(max-width: 650px) {
+  .header-text .creative {
+  font-size: 120px;
   }
 }
