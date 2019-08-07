@@ -211,7 +211,9 @@ a:hover {
 }
 @media (max-width: 1200px) {
   .echivement-text {
-    white-space: pre-line;
+    white-space: pre-wrap;
+    line-height: inherit;
+    text-align: center;
   }
 }
 
@@ -621,6 +623,12 @@ a:hover {
   height: 50px;
   opacity: 0.2;
 }
+@media (max-width: 768px) {
+  .contacts-form {
+    width: auto;
+    margin-bottom: -20px;
+  }
+}
 
 .contacts-btn {
   color: #000;
@@ -632,11 +640,6 @@ a:hover {
   height: 50px;
   background-color: #ffeb3b;
   border-radius: 0;
-}
-@media (max-width: 768px) {
-  .contacts-btn {
-    margin-top: 20px;
-  }
 }
 
 .footer {

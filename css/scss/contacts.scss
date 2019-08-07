@@ -18,6 +18,11 @@
   height: 50px;
   opacity: 0.2;
 
+  @media (max-width: 768px){
+    width: auto;
+    margin-bottom: -20px;
+  }
+
 }
 
 .contacts-btn {
@@ -28,7 +33,4 @@
   background-color: #ffeb3b;
   border-radius: 0;
 
-  @media (max-width: 768px) {
-    margin-top: 20px;
-  }
 }
