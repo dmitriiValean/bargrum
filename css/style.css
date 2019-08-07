@@ -105,13 +105,13 @@ a:hover {
 }
 @media (max-width: 940px) {
   .header-text .creative {
-    font-size: 190px;
+    font-size: 170px;
   }
 }
 
 @media (max-width: 650px) {
   .header-text .creative {
-    font-size: 120px;
+    font-size: 110px;
   }
 }
 .about {
