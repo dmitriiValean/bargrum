@@ -370,6 +370,7 @@ a:hover {
   font-family: "Vidaloka", serif;
   line-height: 60px;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .title-text__body {
@@ -640,6 +641,12 @@ a:hover {
   height: 50px;
   background-color: #ffeb3b;
   border-radius: 0;
+}
+@media (max-width: 380px) {
+  .contacts-btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
 
 .footer {
